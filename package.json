@@ -17,11 +17,11 @@
     "tsutils": "^3.17.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node src/server/index.js",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "devStart": "nodemon server.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
